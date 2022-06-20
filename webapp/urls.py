@@ -1,7 +1,6 @@
 from django.urls import path
-
-from webapp.views import game_calculation
+from webapp.views import game
 
 urlpatterns = [
-    path('', game_calculation)
+    path('', game)
 ]

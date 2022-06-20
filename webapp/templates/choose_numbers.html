@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bulls and cows game</title>
+</head>
+<body>
+<p>Guess 4 numbers. Enter them separated with spaces:</p>
+<form action="" method="post">
+    {% csrf_token %}
+    <input type="text" name="numbers"/><br>
+    <br>
+    <input type="submit" value="Send"/>
+</form>
+</body>
+</html>
