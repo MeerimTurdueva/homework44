@@ -1,0 +1,7 @@
+LEN_ERROR_MESSAGE = "The amount of numbers should equal 4"
+UNIQUE_ERROR_MESSAGE = "The values should be unique"
+RANGE_ERROR_MESSAGE = "Numbers must be greater than 0 and less than 10"
+NOT_INT_ERROR_MESSAGE = "The values should be integers"
+WIN_MESSAGE = "Winner"
+MISSED_MESSAGE = "No identical numbers"
+RESULT_MESSAGE = "You got {bulls} bulls and {cows} cows"

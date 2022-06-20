@@ -8,9 +8,14 @@
 <p>Guess 4 numbers. Enter them separated with spaces:</p>
 <form action="" method="post">
     {% csrf_token %}
-    <input type="text" name="numbers"/><br>
+    <input type="text" name="numbers_str"/><br>
     <br>
     <input type="submit" value="Send"/>
 </form>
+
+{% if request.method == "POST" %}
+    <p>{{ result }} </p>
+{% endif %}
+
 </body>
 </html>
